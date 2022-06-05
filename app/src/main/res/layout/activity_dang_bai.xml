@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangBai"
+    android:background="#B0E0E6">
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/edtDBTenTruyen"
+        android:hint="Tên truyện"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/edtDBNoidung"
+        android:hint="Nội dung"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/edtDBAnh"
+        android:hint="Ảnh"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnDangBai"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Đăng Bài"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvDangBai"
+        android:layout_marginTop="15dp">
+    </ListView>
+
+</LinearLayout>

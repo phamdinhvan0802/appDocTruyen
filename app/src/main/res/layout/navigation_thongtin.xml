@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+<LinearLayout
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical"
+    android:backgroundTint="#EEE8AA">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imgView"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/user2"
+        android:layout_width="80dp"
+        android:layout_height="70dp">
+    </ImageView>
+    <TextView
+        android:textStyle="bold"
+        android:text="phamdinhvan@gmail.com"
+        android:id="@+id/txtgmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:textStyle="bold"
+        android:text="Online"
+        android:id="@+id/txtTrangthai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#45CC4A">
+    </TextView>
+</LinearLayout>
+</LinearLayout>

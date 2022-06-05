@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dang_Nhap"
+    android:background="#EEE8AA">
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo">
+    </ImageView>
+    <EditText
+        android:id="@+id/txttenDN"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:drawableRight="@drawable/ic_taikhoan">
+    </EditText>
+    <EditText
+        android:id="@+id/txtMK"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:password="true"
+        android:imeOptions="actionDone"
+        tools:ignore="Deprecated">
+    </EditText>
+    <ImageView
+        android:id="@+id/imgShow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_eye"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-30dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:backgroundTint="#FFFAFA"
+            android:text="Đăng nhập"
+            android:textColor="@color/black">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_quenmk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFAFA"
+            android:text="Quên mật khẩu?"
+            android:textSize="15dp"
+            android:textColor="@color/black">
+        </TextView>
+        <View
+            android:layout_width="110dp"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_green_dark">
+        </View>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_dangky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn chưa có tài khoản?">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFAFA"
+            android:text="  Đăng ký"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
